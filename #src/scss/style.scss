@@ -8,6 +8,7 @@
 // Common
 body {
 	font-size: 18px;
+	@include fontmain;
 }
 
 .container {
@@ -15,3 +16,11 @@ body {
 	margin: 0 auto;
 	padding: 0 15px;
 }
+
+.secondary {
+	margin-top: 150px;
+	@include fontsecondary;
+	font-size: 40px;
+}
+
+@import "header";
