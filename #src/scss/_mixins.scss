@@ -3,6 +3,7 @@
 }
 @mixin fontsecondary {
 	font-family: 'Balqis', sans-serif;
+	font-weight: 400;
 }
 @mixin transition {
 	transition: all .3s;
